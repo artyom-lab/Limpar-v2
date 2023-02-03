@@ -15,7 +15,8 @@ body {
   @media (max-width: 991.98px) {
     body.menubar-1 {
       overflow: hidden;
-      transform: translateX(280px); } }
+      transform: translateX(280px);
+      pointer-events: none; } }
 
 * {
   outline: none !important; }
